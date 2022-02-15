@@ -2,7 +2,7 @@ package applications;
 
 import java.util.Scanner;
 
-public class Question1 {
+public class QuestionOne {
 
 	public static void main(String[] args) {
 
@@ -16,5 +16,7 @@ public class Question1 {
 			int aux = n - i;
 			System.out.println(" ".repeat(aux - 1) + "*".repeat(i + 1));
 		}
+		
+		sc.close();
 	}
 }

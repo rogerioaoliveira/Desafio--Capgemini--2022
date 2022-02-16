@@ -12,6 +12,8 @@ public class QuestionOne {
 		int n = sc.nextInt();
 		System.out.println();
 
+		//Lógica para a produção da escada, a partir do número digitado pelo usuário
+		
 		for (int i = 0; i < n; i++) {
 			int aux = n - i;
 			System.out.println(" ".repeat(aux - 1) + "*".repeat(i + 1));
